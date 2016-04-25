@@ -1,0 +1,104 @@
+/*===== New Element =====*/
+/*Menu Tile*/
+.menu-tile {
+	height: 115px;
+	color: #FFFFFF;
+	background-color: #44616E;
+}
+.menu-tile:hover {
+	opacity: .8;
+}
+
+/*Gamatechno Icon*/
+.gt-ico {
+	background-size: auto 80% !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+}
+.gt-ico-buku {
+	background: url("../../images/icon/Report.gif");
+}
+
+/*===== Custom Style Overwrite =====*/
+.stat-cell .bg-icon {
+	color: rgba(255, 255, 255, 0.2);
+	top: 7.5px;
+}
+
+.modal-dialog {
+	margin: 25px auto;
+}
+
+#modal-hapus.modal-backdrop.in {
+	opacity: 0.9;
+}
+
+th {
+	text-align: center;
+}
+
+.table-responsive {
+	overflow-x: auto;
+}
+
+.modal-alert .modal-dialog {
+    width: 400px;
+}
+
+/*Profile Top Left*/
+#menu-content-demo {
+	background-image: url("../demo/signin-bg-1-s.jpg");
+	background-size: 200% auto;
+}
+
+#menu-content-demo-overlay {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 100% !important;
+    height: 100%;
+    background-color: rgb(237, 240, 241);
+    opacity: 0.75;
+}
+
+.btn-profile {
+	background-color: rgba(270,240,241,0.5) !important;
+	border-color: #C8C8C8 !important;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+/* --- DAFTAR WARNA UNTUK TILE --- */
+.tile-1 {
+	background-color: #D64542; /*-- MERAH --*/
+}
+
+.tile-2 {
+	background-color: #27AE60; /*-- HIJAU --*/
+}
+
+.tile-3 {
+	background-color: #8E44AD; /*-- UNGU --*/
+}
+
+.tile-4 {
+	background-color: #E67E22; /*-- ORANGE --*/
+}
+
+.tile-5 {
+	background-color: #3D4A5D; /*-- ABU-ABU --*/
+}
+
+.tile-6 {
+	background-color: #2980B9; /*-- BIRU --*/
+}
+
+.tile-7 {
+	background-color: #D1527F; /*-- PINK --*/
+}

@@ -1,0 +1,59 @@
+<!-- patTemplate:tmpl name="content" -->
+<script>
+	   $(document).ready(function(){
+      $(".xzoom").mouseover(function(){
+            //img = this.getElementsByTagName('img')[0];
+            $(this).animate({height: 90, width: 90,}, 300);
+      });
+      
+      $(".xzoom").mouseout(
+         function(){
+            //img = this.getElementsByTagName('img')[0];
+            $(this).animate({height: 75, width: 75,}, 300);
+      });
+   });
+</script>
+<style type="text/css">
+   .warna-menu{
+      width: 100%;
+      background-color: #2980B9;
+      color: #fff;
+   }
+   .warna-menu:hover{
+      background-color: #205F82;
+   }
+   .bawah{
+      position: fixed;
+      bottom: 0;
+   }
+</style>
+<div class="row">
+   <h3 class="col-xs-12 text-left-sm">
+      <i class="fa fa-home page-header-icon"></i>
+      <span class="text-light-gray"> Home </span>
+   </h3>
+</div><hr/>
+<div class="row">
+   <div class="col-xs-12 col-sm-12">
+      <!-- patTemplate:tmpl name="icon_menu" type="SimpleCondition" requiredvars="LINK_URL" -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+         <a href="{LINK_URL}" class="xhr dest_subcontent-element" {MOUSE_UP}>
+         <div class="stat-panel warna-menu">
+            <div class="stat-cell menu-tile valign-middle tile-2">
+               <i class="fa {ICON_NAME} bg-icon"></i>
+               <span class="text-bg text-slim">
+               {LINK_NAME}
+               </span>
+            </div>
+         </div>
+         <!--
+         <div class="warna-menu">
+         <img width="75" height="75" alt="" src="images/icons/{ICON_NAME}" class="xzoom" />
+         </div>
+         -->
+         </a>   
+      </div>
+      <!-- /patTemplate:tmpl --> 
+   </div>
+</div>
+      <!-- /patTemplate:tmpl -->
